@@ -3,7 +3,7 @@ export const weights: {
   mood_vector: Record<MoodVectorKey, number>;
   other_features: Record<OtherFeaturesVectorKey, number>;
 } = {
-  energy: 3.0,
+  energy: 5.0,
   mood_vector: {
     [`rock`]: 1.0,
     [`pop`]: 1.0,
